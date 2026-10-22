@@ -1,0 +1,20 @@
+# 비밀값 (API 키) - 절대 공유/커밋 금지
+.env
+
+# 원자료(용량·재배포 제한)와 중간 산출물·체크포인트(geocode_cache.json 포함)
+data/raw/
+data/interim/
+
+# 파이썬·편집기 부산물
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# 개인 작업 설정·이전 인수인계 기록(로컬 보관)
+CLAUDE.md
+docs/archive_old_handoff.md
+
+# 중단한 현재 수단 비교 분석(로컬 보관, 보고서 미사용)
+outputs/현재수단비교_*.csv
+scripts/_archive/금천구_현재수단비교.py

@@ -1,0 +1,18 @@
+# Python 3.11.2 에서 실행 확인. 버전은 실제 설치된 버전(2026-10-12 기준)
+# scripts/*.py(최종·1단계, _archive 제외)가 직접 import 하는 패키지
+geopandas==1.1.4
+matplotlib==3.11.2
+networkx==3.6.1
+numpy==2.4.6
+pandas==3.0.6
+pdfplumber==0.11.10
+PuLP==3.3.2
+python-dotenv==1.2.4
+scipy==1.17.1
+shapely==2.1.2
+
+# 직접 import 하지는 않지만 실행에 필요한 패키지
+# openpyxl: pandas.read_excel(.xlsx) / pyogrio: geopandas 파일 읽기 / pyproj: 좌표계 변환(to_crs)
+openpyxl==3.1.5
+pyogrio==0.13.0
+pyproj==3.7.2
